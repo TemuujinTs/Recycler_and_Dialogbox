@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <carbon.widget.ImageView
+            android:id="@+id/andro"
+            android:src="@drawable/ic_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <carbon.widget.ImageView
+            android:id="@+id/air"
+            android:src="@drawable/ic_airplanemode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"/>
+        <carbon.widget.ImageView
+            android:id="@+id/audi"
+            android:src="@drawable/ic_audiotrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"/>
+
+        <carbon.widget.ImageView
+            android:id="@+id/checker"
+            android:src="@drawable/ic_assignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>
